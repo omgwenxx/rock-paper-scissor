@@ -1,10 +1,14 @@
 body {
     background-color: #F1A488;
-    margin: 0; /* Remove default margin */
-    height: 100vh; /* Set the body height to the full viewport height */
-    display: flex; /* Create a flex container for the body */
+    margin: 0;
+    /* Remove default margin */
+    height: 100vh;
+    /* Set the body height to the full viewport height */
+    display: flex;
+    /* Create a flex container for the body */
     flex-direction: column;
-    justify-content: center; /* Center items horizontally */
+    justify-content: center;
+    /* Center items horizontally */
     align-items: center;
     font-family: 'Roboto', sans-serif;
 }
@@ -13,18 +17,17 @@ body {
     padding-bottom: 2rem;
 }
 
-.emoji {
-    background-color: peachpuff;
+#player-emoji,
+#npc-emoji {
     font-size: 200px;
 }
 
 .container {
     width: 600px;
-    display:flex;
+    display: flex;
     justify-content: space-between;
-    border-style: solid;
-    border-color: aqua;
 }
+
 .player-box {
     width: 250px;
     display: flex;
@@ -35,7 +38,7 @@ body {
 
 .selection-box {
     display: flex;
-    gap:5px;
+    gap: 5px;
     justify-content: space-around;
 }
 
